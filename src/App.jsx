@@ -1,11 +1,13 @@
 import React from "react";
-import DashboardPage from "./pages/DashboardPage";
+import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      {/* Render the DashboardPage component */}
-      <DashboardPage />
+    <div>
+      <Header />
+      <NavBar />
+      {/* Other Components */}
     </div>
   );
 }
