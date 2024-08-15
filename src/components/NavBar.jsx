@@ -5,41 +5,41 @@ import Search from "./Search";
 const NavBar = () => {
   return (
     <nav className="bg-white shadow-lg">
-      <div className="container mx-auto flex items-center justify-between p-4">
+      <div className="container mx-auto flex items-center justify-between px-4 py-4">
         {/* Navigation Links */}
-        <ul className="flex space-x-6">
+        <ul className="flex space-x-6 text-black">
           <li>
-            <a href="/" className="text-black hover:text-red-600">
-              Home
+            <a href="/" className="hover:text-red-600">
+              HOME
             </a>
           </li>
           <li>
-            <a href="/about" className="text-black hover:text-red-600">
-              About Us
+            <a href="/about" className="hover:text-red-600">
+              ABOUT US
             </a>
           </li>
           <DropDown
-            title="Solutions"
+            title="SOLUTIONS"
             items={["HVAC", "Cold Chain", "Dairy", "Marine Food"]}
           />
           <li>
-            <a href="/clients" className="text-black hover:text-red-600">
-              Clients
+            <a href="/clients" className="hover:text-red-600">
+              CLIENTS
             </a>
           </li>
           <li>
-            <a href="/partners" className="text-black hover:text-red-600">
-              Partners
+            <a href="/partners" className="hover:text-red-600">
+              PARTNERS
             </a>
           </li>
           <li>
-            <a href="/media" className="text-black hover:text-red-600">
-              Media
+            <a href="/media" className="hover:text-red-600">
+              MEDIA
             </a>
           </li>
           <li>
-            <a href="/contact" className="text-black hover:text-red-600">
-              Contact
+            <a href="/contact" className="hover:text-red-600">
+              CONTACT
             </a>
           </li>
         </ul>
